@@ -1,0 +1,20 @@
+# Site settings
+title: Dean McKeaveney Portfolio
+description: A blog about Dean McKeaveney
+baseurl: "/portfolio" 
+url: "https://deanmck123.github.io" 
+
+# User settings
+username: Dean McKeaveney
+user_description: 25year old software developer from Northern Irleand
+user_title: Software Developer
+email: deanmckeaveney@gmail.com
+twitter_username: DeanMckeaveney
+github_username: DeanMcK123
+linkedin_username: deanmckeaveney
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']
