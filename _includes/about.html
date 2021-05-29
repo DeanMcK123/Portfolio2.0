@@ -1,6 +1,6 @@
  <div class="user-details">
   <h1> About me </h1>
-  <img src="/assets/img/avatar.jpeg" alt="Avatar">
+  <img alt="avatar" src="{{ "/assets/img/avatar.jpeg" | prepend: site.baseurl }}" />
 
   <p> {{site.user_description}} </p>
 </div>
