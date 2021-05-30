@@ -1,30 +1,35 @@
- <div class="user-details">
+<div class="user-details">
   <h1> About me </h1>
 
-<img class="avatar" src="{{ "/assets/img/avatar.jpeg" | prepend: site.baseurl }}" style="width:200px"/>
+  <div class="avatar">
+    <img src="{{ " /assets/img/avatar.jpeg" | prepend: site.baseurl }}" style="width:200px" />
+  </div>
 
   <p> {{site.user_description}} </p>
 </div>
-  <div class="user">
-    <div class="tech">
-      <h2>Design</h2>
-      <i class="devicon-html5-plain-wordmark"></i>
-      <i class="devicon-bootstrap-plain-wordmark colored"></i>
-      <i class="devicon-sass-original colored"></i>
-      <p>Experience in building wesbite structures with HTML5, and styling with Bootstrap functions and Sass style sheets </p>
-    </div>
-    <div class="tech">
-      <h2>Code</h2>
-      <i class="devicon-mysql-plain-wordmark colored"></i>
-      <i class="devicon-angularjs-plain colored"></i>
-      <i class="devicon-python-plain colored"></i>
-      <p>Experience with MySQL to query databases, AngularJS for site scripting and Python for developing automation bots for AWS</p>
-    </div>
-    <div class="tech">
-      <h2>Tools</h2>
-      <i class="devicon-git-plain"></i>
-      <i class="devicon-photoshop-plain colored"></i>
-      <i class="devicon-linux-plain colored"></i>
-      <p>Experience with using Git to push pull repos, Photoshop for web design and Linux/Unix command line for remote control of cloud resources</p>
-    </div>
+<div class="user">
+  <div class="tech">
+    <h2>Design</h2>
+    <i class="devicon-html5-plain-wordmark"></i>
+    <i class="devicon-bootstrap-plain-wordmark colored"></i>
+    <i class="devicon-sass-original colored"></i>
+    <p>Experience in building wesbite structures with HTML5, and styling with Bootstrap functions and Sass style sheets
+    </p>
+  </div>
+  <div class="tech">
+    <h2>Code</h2>
+    <i class="devicon-mysql-plain-wordmark colored"></i>
+    <i class="devicon-angularjs-plain colored"></i>
+    <i class="devicon-python-plain colored"></i>
+    <p>Experience with MySQL to query databases, AngularJS for site scripting and Python for developing automation bots
+      for AWS</p>
+  </div>
+  <div class="tech">
+    <h2>Tools</h2>
+    <i class="devicon-git-plain"></i>
+    <i class="devicon-photoshop-plain colored"></i>
+    <i class="devicon-linux-plain colored"></i>
+    <p>Experience with using Git to push pull repos, Photoshop for web design and Linux/Unix command line for remote
+      control of cloud resources</p>
+  </div>
 </div>
